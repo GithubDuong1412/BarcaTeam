@@ -1,0 +1,32 @@
+@media screen and (min-width: 740px){
+
+    
+
+    .member-item .text-in-img {
+        font-size: 8px;
+    }
+}
+
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .member-item .text-in-img {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1113px){
+    .member-item .text-in-img {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px){
+    .member-item .text-in-img {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    
+
+}

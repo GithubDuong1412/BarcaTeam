@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Club</title>
+    <link rel="icon" href="./Asset/Icon/icon_logo_barca.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="./Asset/Icon/fontawesome-free-6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./Asset/CSS/style_barca.css">
+    <link rel="stylesheet" href="./Asset/CSS/grid.css">
+    <link rel="stylesheet" href="./Asset/CSS/root.css">
+    <link rel="stylesheet" href="./Asset/CSS/Size_Mode.css">
+    <link rel="stylesheet" href="./Asset/CSS/123.css">
+    <script src="./Asset/JS/jquery.js"></script>
+</head>
+<body>
+    <div id="body">
+        <!-- ========= Phần đầu trang : Menu =========== -->
+        <div id="nav">
+                <ul id="nav-list" class="nav-list nav-left">
+                    <li class="nav-item"><a href="#body">My Club</a></li>
+                    <li class="nav-item"><a href="#member">Member</a></li>
+                    <li class="nav-item"><a href="#schedule">schedule</a></li>
+                    <li class="nav-item"><a href="#achive">Achivement</a></li>
+                    <li class="nav-item"><a href="#training">Training</a></li>
+                </ul>
+                
+                <div class="nav-mobile-icon" id="js-mobile-menu">
+                    <i class="fa-solid fa-bars nav-icon"></i>
+                </div>
+
+                <div class="search-btn">
+                    <i class="search-icon ti-search"></i>
+                </div>
+        </div>
+
+        <!-- =========== Phần Slide ==================== -->
+        <div id="slider">
+            <img class="silder-animation" src="./Asset/Image/slider_barca_1.jpg" idx="0" alt="Image_Barca">
+            <img class="silder-animation" src="./Asset/Image/slider_barca_2.jpg" idx="1" alt="Image_Barca">
+            <img class="silder-animation" src="./Asset/Image/slider_barca_3.jpg" idx="2" alt="Image_Barca">
+            <img class="silder-animation" src="./Asset/Image/slider_barca_4.jpg" idx="3" alt="Image_Barca">
+        </div>
+        <img class="btn-change" id="next" src="./Assets/Image/next.JPG" alt=""/>
+        <img class="btn-change" id="prev" src="./Assets/Image/prev.JPG" alt=""/>
+
+        <!-- =========== Phần Nội dung : Content ======= -->
+        <div id="content">
+            <!-- == Members == -->
+            <div id="member">
+                <div class="text-content">
+                    <h2 class="heading-content">MEMBER IN CLUB</h2>
+                    <p class="signature-content">Towards the Champion</p>
+                </div>
+
+                <div class="member-nav">
+                    <ul class="member-nav-list">
+                        <li class="member-nav-item"><a href="#GK">Goalkeepers</a></li>
+                        <li class="member-nav-item"><a href="#DF">Defenders</a></li>
+                        <li class="member-nav-item"><a href="#MF">Midfielders</a></li>
+                        <li class="member-nav-item"><a href="#FW">Forwards</a></li>
+                        <li class="member-nav-item"><a href="#Coach">Coach</a></li>
+                    </ul>
+                </div>
+
+                <div class="member-list">
+                    <div id="GK" class="title-section grid wide">
+                        <h2 class="title-location">Goalkeepers</h2>
+                        <div class="member-GK member-location row">
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>01 - <em>Ter-Stegen</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/01-MARC-ANDRE_TER_STEGEN.jpg"  alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>26 - <em>Inaki Pena </em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/26-INAKI_PENA.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- <div class="member-item">
+                                <img src="" alt="">
+                            </div> -->
+                        </div>
+                    </div>    
+
+                    <div id="DF" class="title-section grid wide">
+                        <h2 class="title-location">Defenders</h2>
+                        <div class="member-DF member-location row">
+                            <!-- <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>02 - <em>H.Bellerin</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/02-HECTOR_BELLERIN_.jpg" alt="">
+                                </div>
+                            </div> -->
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>04 - <em>R.Araujo</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/04-RONALD_ARAUJO_.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>15 - <em>Christensen</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/15-ANDREAS_CHRISTENSEN.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>17 - <em>M.Alonso</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/17-MARCOS_ALONSO.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>18 - <em>Jordi Alba</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/18-JORDI_ALBA.jpg" alt="">
+                                </div>
+                            </div> -->
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>25 - <em>Balde</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/25-BALBE.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>23 - <em>J.Kounde</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/23-JULES_KOUNDE.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>24 - <em>E.Garcia</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/24-ERIC_GARCIA.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <!-- <img src="" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="MF" class="title-section grid wide">
+                        <h2 class="title-location">Midfielders</h2>
+                        <div class="member-MF member-location row">
+                            <!-- <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>05 - <em>Sergio</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/05-SERGIO_.jpg" alt="">
+                                </div>
+                            </div> -->
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>08 - <em>Pedri</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/08-PEDRI.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>19 - <em>F.Kessie</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/19-FRANCK_KESSIE.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>20 - <em>S.Roberto</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/20-S_ROBERTO.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>21 - <em>F.De Jong</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/21-FRENKIE_DE_JONG.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>30 - <em>Gavi</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/30-GAVI_.webp" alt=*delete>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="FW" class="title-section grid wide" >
+                        <h2 class="title-location">Forwards</h2>
+                        <div class="member-FW member-location row">
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>07 - <em>O.Dembele</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/07-OUSMANE_DEMBELE.webp" alt=*delete>
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>09 - <em>R.Lewandowski</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/09-ROBERT_LEWANDOWSKI.webp" alt=*delete>
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>10 - <em>Ansu Fati</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/10-ANSU_FATI.webp" alt=*delete>
+                                </div>
+                            </div>
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>11 - <em>Ferran Torres</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/11-FERRAN_TORRES.webp" alt=*delete>
+                                </div>
+                            </div>
+                            <!-- <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>14 - <em>M.Depay</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/14-MEMPHIS_DEPAY.webp" alt=*delete>
+                                </div>
+                            </div> -->
+                            <div class="member-item col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>22 - <em>Raphinha</em></h1>
+                                </div>
+                                <div class="picture-member">
+                                    <img src="./Asset/Image/img_member_list/22-RAPHINHA.webp" alt=*delete>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Coach" class="title-section grid wide">
+                        <h2 class="title-location">Coaching Staff</h2>
+                        <div class="member-coach">
+                            <div style="margin-right: 16px;" class="member-item item_coach col  l-3 m-4 c-6">
+                                <div class="text-in-img">
+                                    <h1>Xavi Hernandez</h1>
+                                </div>
+                                <div class="picture-member img-coach">
+                                    <img src="./Asset/Image/img_member_list/00_XAVI_HERNANDEZ.webp" alt=*delete>
+                                </div>
+                            </div>
+
+                            <div class="member-coach_info">
+                                <div class="info_cate">
+                                    <div class="info_task">
+                                        <h4 class="info_header">Training Center</h4>
+                                        <span class="info_text"> - Born in Terrassa, Barcelona, Catalonia, Xavi is a product of 
+                                            FC Barcelona's La Masia youth system, which he joined at the age of 11 from UFB Jàbac 
+                                            Terrassa and Terrassa FC.<br>
+                                            - Xavi made his way through the youth and reserve teams and was 
+                                            a key member of Josep Maria Gonzalvo's Barcelona B team that won promotion to the 
+                                            Second Division.
+                                        </span>
+                                    </div> 
+                                </div>
+                                <div class="info_cate">
+                                    <div class="info_task">
+                                        <h4 class="info_header">Professional Competition</h4>
+                                        <span class="info_text"> - 1998s -> 2015s : Xavi and Barca have had many collectives and 
+                                                                    personally he is also one of the exemplary captains in the club's history.<br>
+                                                                - On 21 May 2015, Xavi announced that he would join Qatari club Al Sadd at the end of the 2014-15 season on a three-year contract. <br>
+                                                                - On 2 May 2019, Xavi announced that he would be retiring from professional football at the end of the season. 
+                                                                    On 20 May 2019, Xavi played the final match of his career.
+                                        </span>    
+                                    </div>
+                                </div>
+                                <div class="info_cate">
+                                    <div class="info_task">
+                                        <h4 class="info_header">Coach's Time</h4>
+                                        <span class="info_text"> - On 28 May 2019 it was announced that Xavi would take over as manager of Al Sadd on a two-year contract.In the league, 
+                                                                    the club finished third. In the 2019-20 season, Xavi led his team to win one domestic trophy, the Qatar Cup.<br>
+                                                                 - On 6 November 2021, Xavi returned to his former club Barcelona as the new manager replacing Ronald Koeman, 
+                                                                    on a contract until June 2024.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="ass_coach-list">
+                                <li class="ass_coach-item">
+                                    <span class="ass_coach-position">Assitant Coach</span>
+                                    <span class="ass_coach-name">ÒScar Hernandez</span>
+                                </li>
+                                <li class="ass_coach-item">
+                                    <span class="ass_coach-position">Assitant Coach</span>
+                                    <span class="ass_coach-name">Sergio Alegre</span>
+                                </li>
+                                <li class="ass_coach-item">
+                                    <span class="ass_coach-position">Fitness Coach</span>
+                                    <span class="ass_coach-name">Ivan Torres</span>
+                                </li>
+                                <li class="ass_coach-item">
+                                    <span class="ass_coach-position">Goalkeeping Coach</span>
+                                    <span class="ass_coach-name">ÒScar Hernandez</span>
+                                </li>
+                                <li class="ass_coach-item">
+                                    <span class="ass_coach-position">Analyts</span>
+                                    <span class="ass_coach-name">Sergio Garcia, Toni Lobo & David Prats</span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- == Legends == -->
+            <!-- <div id="schedule">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="text-content col l-12 ">
+                            <h2 class="heading-content">Schedule</h2>
+                            <p class="signature-content">Let's achieve many great achievements together</p>
+                            
+                            <ul class="tickets-list">
+                                <li class="tickets-inMonth">
+                                    <h3>November/2023</h3>
+                                    <img src="./Asset/Image/LaLiga_Logo.png" alt="">
+                                    <p>3 matches</p>
+                                    <button type="submit" class="tickets-buy">Buy Ticket</button>
+                                </li>
+                            </ul>
+                            <div class="grid wide">
+            
+                                <div class="row">
+                                    <div class="col ">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+        
+                    </div>
+            </div> -->
+
+            <!-- == Achivement == -->
+            <!-- <div id="achive">
+                <div class="text-content">
+                    <h2 class="heading-content">HISTORICAL ACHIVEMENT</h2>
+                    <p class="signature-content">Achieve glorious achievements</p>
+                </div>
+            </div>
+             -->
+            <!-- == Training Center -->
+            <!-- <div id="training">
+                <div class="text-content">
+                    <h2 class="heading-content">TRAINING CENTER LAMASIA</h2>
+                    <p class="signature-content">Future talents of the club</p>
+                </div>
+            </div> -->
+
+
+        </div>
+        <!-- ========= End : Nội dung Content ======== -->
+
+        <!-- =========== Phần Footer =================== -->
+        <div id="footer">
+
+        </div>
+    </div>
+    <script src="./Asset/JS/mode_1.js"></script>
+    <script src="./Asset/JS/banner.js"></script>
+    <script src="./Asset/JS/nav.js"></script>
+
+</body>
+</html>

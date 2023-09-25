@@ -1,0 +1,15 @@
+.info_icon:hover .info_text{
+    display: block;
+}
+
+.open {
+    display: block;
+}
+/* 
+@keyframes openInfo {
+    from {
+
+    } to {
+
+    }
+} */
